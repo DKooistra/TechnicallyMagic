@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "technicallymagic:block/aetherite_block"
+  }
+}
