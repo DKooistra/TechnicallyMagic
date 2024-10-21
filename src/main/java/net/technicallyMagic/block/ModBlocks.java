@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.technicallyMagic.TechnicallyMagic;
+import net.technicallyMagic.block.custom.RunestoneBlock;
 import net.technicallyMagic.item.ModItems;
 
 import java.util.function.Supplier;
@@ -23,7 +24,12 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST)));
 
     public static final RegistryObject<Block> AETHERITE_BLOCK = registerBlock("aetherite_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK)
+                    .strength(60.0F, 2000.0F)));
+
+    public static final RegistryObject<Block> RUNESTONE_BLOCK = registerBlock("runestone_block",
+            () -> new RunestoneBlock(BlockBehaviour.Properties.copy(Blocks.REDSTONE_BLOCK).sound(SoundType.AMETHYST)
+                    .strength(10.0F, 10.0F)));
 
 
 

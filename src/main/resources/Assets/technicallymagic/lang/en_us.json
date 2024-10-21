@@ -1,10 +1,13 @@
 {
   "item.technicallymagic.elder_copper": "Elder Copper",
   "item.technicallymagic.aetherite_ingot": "Aetherite Ingot",
+  "item.technicallymagic.block_detector": "Valid Block Detection",
+  "item.technicallymagic.enchancium_carrot": "Enchancium Carrot",
 
 
   "block.technicallymagic.elder_copper_block": "Elder Copper Block",
   "block.technicallymagic.aetherite_block": "Aetherite Block",
+  "block.technicallymagic.runestone_block": "Runestone Block",
 
 
   "creativetab.tech_magic_tab": "Technically Magic"

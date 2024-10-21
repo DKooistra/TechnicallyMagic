@@ -22,6 +22,9 @@ public class ModCreativeModTabs {
                         output.accept(ModBlocks.ELDER_COPPER_BLOCK.get());
                         output.accept(ModItems.AETHERITE_INGOT.get());
                         output.accept(ModBlocks.AETHERITE_BLOCK.get());
+                        output.accept(ModBlocks.RUNESTONE_BLOCK.get());
+                        output.accept(ModItems.BLOCK_DETECTOR.get());
+                        output.accept(ModItems.ENCHANCIUM_CARROT.get());
                     })
                     .build());
 
