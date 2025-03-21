@@ -1,0 +1,44 @@
+{
+	"name": "test_animation",
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.model.new": {
+			"loop": true,
+			"animation_length": 1,
+			"loop_delay": "2",
+			"bones": {
+				"rightArm": {
+					"rotation": {
+						"0.125": {
+							"vector": [-5.5, 0, 0]
+						},
+						"0.2917": {
+							"vector": [-17.5, 0, 0]
+						},
+						"0.4583": {
+							"vector": [-29.5, 0, 0]
+						},
+						"0.5833": {
+							"vector": [-34.5, 0, 0]
+						},
+						"0.75": {
+							"vector": [-61.5, 0, 0]
+						},
+						"0.875": {
+							"vector": [-80.5, 0, 0]
+						},
+						"1.0": {
+							"vector": [-97.5, 0, 0]
+						}
+					}
+				},
+				"leftArm": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

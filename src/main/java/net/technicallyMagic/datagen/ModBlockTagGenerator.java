@@ -25,23 +25,40 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
         //Transmutable blocks tag creator
         this.tag(ModTags.Blocks.TRANSMUTABLE_BLOCKS)
-                .add(Blocks.IRON_BLOCK,
+                .add(
+                        Blocks.COPPER_BLOCK,
+                        Blocks.IRON_BLOCK,
                         Blocks.GOLD_BLOCK,
                         Blocks.REDSTONE_BLOCK,
+                        Blocks.EMERALD_BLOCK,
                         Blocks.DIAMOND_BLOCK,
                         Blocks.NETHERITE_BLOCK);
 
         //Mineable with pickaxe
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
-                .add(ModBlocks.RUNESTONE_BLOCK.get(),
+                .add(
+                        ModBlocks.RUNESTONE_BLOCK.get(),
                         ModBlocks.ELDER_COPPER_BLOCK.get(),
+                        ModBlocks.THAUMIC_METAL_BLOCK.get(),
+                        ModBlocks.ENCHANCIUM_BLOCK.get(),
+                        ModBlocks.ETHERSHARD_BLOCK.get(),
+                        ModBlocks.WYRMSHARD_BLOCK.get(),
                         ModBlocks.AETHERITE_BLOCK.get());
 
 
         //Additional blocks iron tool needed for
         this.tag(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.RUNESTONE_BLOCK.get(),
-                        ModBlocks.ELDER_COPPER_BLOCK.get());
+                .add(
+                        ModBlocks.RUNESTONE_BLOCK.get(),
+                        ModBlocks.ELDER_COPPER_BLOCK.get(),
+                        ModBlocks.THAUMIC_METAL_BLOCK.get(),
+                        ModBlocks.ENCHANCIUM_BLOCK.get());
+
+        //Additional blocks diamond tool needed for
+        this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(
+                        ModBlocks.ETHERSHARD_BLOCK.get(),
+                        ModBlocks.WYRMSHARD_BLOCK.get());
 
         //Additional blocks netherite tool needed for
         this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL)

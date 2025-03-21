@@ -1,14 +1,25 @@
 {
   "item.technicallymagic.elder_copper": "Elder Copper",
+  "item.technicallymagic.runestone": "Runestone",
+  "item.technicallymagic.enchancium_ingot": "Enchancium Ingot",
+  "item.technicallymagic.thaumic_metal_ingot": "Thaumic Metal",
+  "item.technicallymagic.ethershard": "Ethershard",
+  "item.technicallymagic.wyrmshard": "Wyrmshard",
   "item.technicallymagic.aetherite_ingot": "Aetherite Ingot",
   "item.technicallymagic.block_detector": "Valid Block Detection",
   "item.technicallymagic.enchancium_carrot": "Enchancium Carrot",
+  "item.technicallymagic.staff1_test": "Test Staff 1",
 
 
   "block.technicallymagic.elder_copper_block": "Elder Copper Block",
-  "block.technicallymagic.aetherite_block": "Aetherite Block",
   "block.technicallymagic.runestone_block": "Runestone Block",
+  "block.technicallymagic.enchancium_block": "Enchancium Block",
+  "block.technicallymagic.thaumic_metal_block": "Block of Thaumic Metal",
+  "block.technicallymagic.ethershard_block": "Ethershard Block",
+  "block.technicallymagic.wyrmshard_block": "Wyrmshard Block",
+  "block.technicallymagic.aetherite_block": "Aetherite Block",
 
+  "sounds.technicallymagic.magic_beam_fired": "Magic Beam Fired",
 
   "creativetab.tech_magic_tab": "Technically Magic"
 }

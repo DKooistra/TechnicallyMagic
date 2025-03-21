@@ -21,6 +21,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.AETHERITE_BLOCK);
         blockWithItem(ModBlocks.ELDER_COPPER_BLOCK);
         blockWithItem(ModBlocks.RUNESTONE_BLOCK);
+        blockWithItem(ModBlocks.THAUMIC_METAL_BLOCK);
+        blockWithItem(ModBlocks.ENCHANCIUM_BLOCK);
+        blockWithItem(ModBlocks.ETHERSHARD_BLOCK);
+        blockWithItem(ModBlocks.WYRMSHARD_BLOCK);
 
     }
 

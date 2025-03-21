@@ -16,14 +16,23 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     private static final List<ItemLike> MATERIAL_BLOCKS = List.of(
             ModBlocks.AETHERITE_BLOCK.get(),
             ModBlocks.RUNESTONE_BLOCK.get(),
-            ModBlocks.ELDER_COPPER_BLOCK.get());
+            ModBlocks.ELDER_COPPER_BLOCK.get(),
+            ModBlocks.THAUMIC_METAL_BLOCK.get(),
+            ModBlocks.ENCHANCIUM_BLOCK.get(),
+            ModBlocks.ETHERSHARD_BLOCK.get(),
+            ModBlocks.WYRMSHARD_BLOCK.get()
+            );
 
     //List of materials to be turned into 1 single block (same order as list above)
-    //Need to change second entry to be runestone rather than aetherite
     private static final List<ItemLike> MATERIAL_ITEMS = List.of(
             ModItems.AETHERITE_INGOT.get(),
-            ModItems.AETHERITE_INGOT.get(),
-            ModItems.ELDER_COPPER.get());
+            ModItems.RUNESTONE.get(),
+            ModItems.ELDER_COPPER.get(),
+            ModItems.THAUMIC_METAL_INGOT.get(),
+            ModItems.ENCHANCIUM_INGOT.get(),
+            ModItems.ETHERSHARD.get(),
+            ModItems.WYRMSHARD.get()
+            );
 
 
 

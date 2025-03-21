@@ -20,8 +20,15 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         simpleItem(ModItems.AETHERITE_INGOT);
         simpleItem(ModItems.ELDER_COPPER);
+        simpleItem(ModItems.RUNESTONE);
+        simpleItem(ModItems.THAUMIC_METAL_INGOT);
+        simpleItem(ModItems.ENCHANCIUM_INGOT);
+        simpleItem(ModItems.ETHERSHARD);
+        simpleItem(ModItems.WYRMSHARD);
         simpleItem(ModItems.ENCHANCIUM_CARROT);
         simpleItem(ModItems.BLOCK_DETECTOR);
+        simpleItem(ModItems.KILL_PROJECTILE);
+
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

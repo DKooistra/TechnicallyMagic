@@ -1,0 +1,8 @@
+{
+  "magic_beam_effect": {
+    "subtitle": "sounds.technicallymagic.magic_beam_fired",
+    "sounds": [
+      "technicallymagic:magic_beam_effect"
+    ]
+  }
+}
